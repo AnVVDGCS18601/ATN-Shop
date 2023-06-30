@@ -47,7 +47,7 @@ const port = process.env.PORT || 8080;
 
 // ket noi mongoose
 
-const url =  "mongodb+srv://hello-world:789456123@cluster0.qmfgw.mongodb.net/hello-world?retryWrites=true&w=majority"
+const url =  "mongodb+srv://anvvdgcs18601:DaiAn1206@cloud-computing-cluster.n4szvup.mongodb.net/?retryWrites=true&w=majority"
 
 const mongoose = require("mongoose");
 mongoose.connect(
