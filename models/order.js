@@ -37,7 +37,7 @@ const OrderSchema = new mongoose.Schema({
     },
     ThoiGianMua : {
         type: Date,
-        default : "2021-10-20",
+        default : Date.now(),
     },
     MaSoNV : {
         type: String,
