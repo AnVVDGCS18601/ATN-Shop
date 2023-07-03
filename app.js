@@ -43,7 +43,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 /// Khai bao cac Config, Params
 const hostname = "localhost";
-const port = process.env.PORT || 8080;
+const port = process.env.PORT || 3000;
 
 // ket noi mongoose
 
